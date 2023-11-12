@@ -37,6 +37,8 @@ var##text##hello world!
 echo##text
 ```
 ## Commands
-`var##[name]##[val]` : set `[name]` to `[val]`
-`input##[var]` : set `[var]` to user's input
-`wait##[var]` : wait for `[var]` seconds
+`var##[name]##[val]` : set `[name]` to `[val]`  
+`input##[var]` : set `[var]` to user's input  
+`wait##[var]` : wait for `[var]` seconds  
+`sys##[var]` : run Linux command `[val]`  
+`exit` : Show `Press [ENTER] to quit` prompt (Use to keep app open)
