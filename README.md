@@ -27,3 +27,16 @@ Once logged in to your account (see [Making your CMD account](#-making-your-cmd-
 `cls` : Clear screen  
 `new [username]` : Make an account named [username] (Only runs in `root` account)  
 `zx [file]` : Run ZX script `[file]`
+# Making ZX programs
+## Setup your file
+To make a ZX program, goto `/user/[username]` and make your file there. Example: `/user/azure/hello.zx`
+## Programming
+ZX programs are variable-based. This means `echo##hello world!` would be 
+```
+var##text##hello world!
+echo##text
+```
+## Commands
+`var##[name]##[val]` : set `[name]` to `[val]`
+`input##[var]` : set `[var]` to user's input
+`wait##[var]` : wait for `[var]` seconds
