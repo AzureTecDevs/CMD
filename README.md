@@ -25,4 +25,5 @@ Once logged in to your account (see [Making your CMD account](#-making-your-cmd-
 `app [file]` : Run Python app `[file]`  
 `python` : Open Python interpreter  
 `cls` : Clear screen  
-`new [username]` : Make an account named [username] (Only runs in `root` account)
+`new [username]` : Make an account named [username] (Only runs in `root` account)  
+`zx [file]` : Run ZX script `[file]`
