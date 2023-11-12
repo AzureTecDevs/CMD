@@ -9,4 +9,4 @@ CMD requires a couple modules to run:
 When you run CMD, you are asked to enter your username. By default, there is one account named `root`. Login to this account with the password `12tte21k`. Once logged in, type `new [username]`. This will make a user called `[username]`. Then, type `restart` and login to your new account.  
 # Using CMD
 Once logged in to your account (see [Making your CMD account](#-making-your-cmd-account)), you have access to almost all CMD commands. To start, type `help`. You will see all of the commands available.  
-![Commands](https://github.com/AzureTecDevs/CMD/blob/main/images/cmd.png)
+![Commands](https://github.com/AzureTecDevs/CMD/blob/main/cmd.png)
