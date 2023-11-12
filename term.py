@@ -81,13 +81,22 @@ class CMD(cmd.Cmd):
         """python
         Open Python command interpreter"""
         os.system('python')
+
+    def do_system(self, cmd):
+        """system [cmd]
+        Run Linux command [cmd]"""
+        os.system(cmd)
     
     def do_user(self, any):
         """user
         Change user"""
         os.system('clear')
         os.system('python term.py')
-
+        
+    def do_zx(self, file):
+        """zx [file]
+        Run ZX script [file]"""
+        os.system(f'python zx.py {acc}/{file}.zx')
     
     def do_info(self, tag):
         """info [tag]
