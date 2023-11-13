@@ -1,0 +1,9 @@
+# hello world program
+var##txt##Hello World
+var##wt##1
+var##in##Nothing
+echo##txt
+wait##wt
+input##in##Text: 
+echo##in
+exit
