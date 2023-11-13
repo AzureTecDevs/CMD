@@ -42,3 +42,18 @@ echo##text
 `wait##[var]` : wait for `[var]` seconds  
 `sys##[var]` : run Linux command `[val]`  
 `exit` : Show `Press [ENTER] to quit` prompt (Use to keep app open)
+## Examples
+hello.zx:
+```
+# hello world program
+# vars
+var##txt##Hello World
+var##wt##1
+var##in##Nothing
+# code
+echo##txt
+wait##wt
+input##in##Text: 
+echo##in
+exit
+```
