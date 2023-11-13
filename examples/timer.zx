@@ -1,0 +1,8 @@
+var##wel##Welcome to timer! Please enter time (In seconds):
+var##timer##Timer Complete!
+var##in
+echo##wel
+input##in
+wait##in
+echo##timer
+exit
