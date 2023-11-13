@@ -43,7 +43,7 @@ echo##text
 `sys##[var]` : run Linux command `[val]`  
 `exit` : Show `Press [ENTER] to quit` prompt (Use to keep app open)
 ## Examples
-hello.zx:
+### hello.zx:
 ```
 # hello world program
 # vars
@@ -57,3 +57,5 @@ input##in##Text:
 echo##in
 exit
 ```
+Output:  
+![Commands](https://github.com/AzureTecDevs/CMD/blob/main/zx.png)
