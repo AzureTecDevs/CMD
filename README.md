@@ -72,6 +72,7 @@ To run CMD's GUI, find the file `runner.py` and run it. You now have a GUI versi
 ## Usage
 ### Opening apps
 To open an app, click on Programs, then click on the app to run it.
+![Commands](https://github.com/AzureTecDevs/CMD/blob/main/gui2.png)
 ### Oping Custom Apps
 To open a custom app, click on Custom Apps, then click on the number to run that program (The number in the menu corresponds to the program's name. Example: `1.py` is 1 in the menu)  
 ![Commands](https://github.com/AzureTecDevs/CMD/blob/main/gui1.png)
