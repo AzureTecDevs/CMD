@@ -5,16 +5,14 @@ import ext
 def main():
     # App Info
     
-    name = 'Tabs' # Name of app
+    name = 'Custom App' # Name of app
     description = '' # App's description (used in About menu)
     version = '1.0.0' # App's version code (must be String)
-    author = 'AzureTecDevs' # Person/People who programmed your app
+    author = '' # Person/People who programmed your app
     
     # END
     menu = [['Window', ['About', 'Exit']]] # DO NOT DELETE Window MENU
-    a = [[sg.Text('Hello World')]]
-    t1 = sg.Tab(a, title='Hello')
-    layout = [ [sg.Menu(menu)], [sg.TabGroup([t1])] ] # DO NOT REMOVE sg.Menu(menu)
+    layout = [ [sg.Menu(menu)] ] # DO NOT REMOVE sg.Menu(menu)
 
     window = sg.Window(f'{name}', layout, size=(600,600)) # DO NOT DELETE
     while True:
