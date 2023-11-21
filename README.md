@@ -1,1 +1,1 @@
-⚠: This page has been moved to the Wiki.
+Notice: The docs have been moved to the Wiki.
