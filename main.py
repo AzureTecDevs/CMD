@@ -178,7 +178,7 @@ class CMD(cmd.Cmd):
         		type = getExtIndex(f'{acc}/info.ext', 1)
         		print(f'ⓘ System:\n- Name: {user}\n- Type: {type}')
         	elif tag.lower() == 'cmd':
-        		print('ⓘ CMD:\n- Version: v1.0.2\n- Build: 78429')
+        		print('ⓘ CMD:\n- Version: v1.0.0\n- Build: 787839')
         	else:
         		pass
     
