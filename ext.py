@@ -6,6 +6,14 @@ def readFile(file):
 	lines = f.readlines()
 	res = []
 	for sub in lines:
+	    res.append(sub.replace("\n", "\n"))
+	return res
+
+def readFileN(file):
+	f = open(file)
+	lines = f.readlines()
+	res = []
+	for sub in lines:
 	    res.append(sub.replace("\n", ""))
 	return res
 
